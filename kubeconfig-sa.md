@@ -66,7 +66,7 @@ Create new Credentials (we name our user with the Service Account name and the C
 kubectl config set-credentials cicd@$CLUSTER --token=$TOKEN
 ```
 
-Create new Context with credentials and cluser info
+Create new Context with credentials and cluster info
 ```
 kubectl config set-context cicd@$CLUSTER --cluster $CLUSTER --user=cicd@$CLUSTER
 ```
